@@ -44,7 +44,7 @@
   var verticalAlign = function() {
     var dimensions = slideDimensions();
     var margin = (dimensions.height - $(this).height()) / 2;
-    $(this).css({ paddingTop: margin + 'px' });
+    $(this).css({ paddingTop: margin + 'px', paddingBottom: margin + 'px' });
   }
 
   var formatGist = function() {
